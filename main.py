@@ -62,6 +62,9 @@ def f3():
                     a[j] = a[j] + ', ' + i
     a = dict(sorted(a.items()))
     print(a)
+    with open("ru-en.txt", 'w') as n_d:
+        for key, value in a.items():
+            n_d.write('%s - %s\n' % (key, value))
 if x==3:
     f3()
 if x< 0 or x > 3:
