@@ -1,5 +1,5 @@
 import json
-x = input("введите номер задания:")
+x = int(input("введите номер задания:"))
 
 #10.1
 def f1():
@@ -47,7 +47,7 @@ if x==2:
 def f3():
     d = open('en-ru.txt ', encoding="utf-8").read().split('\n')
     s = {}
-    for i in range(len(en_ru)):
+    for i in range(len(d)):
         d[i] = d[i].split(' - ')
         s[d[i][0]] = d[i][1:]
     print(s)
