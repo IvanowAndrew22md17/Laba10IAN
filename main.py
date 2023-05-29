@@ -11,7 +11,7 @@ def f1():
         print('Цена: ' + str(a.get('price')))
         print('Вес: ' + str(a.get('weight')))
         if str(a.get('available: true')):
-            print('В наличии')
+            print('Есть в наличии')
         else:
             print('Нет в наличии!''\n')
 if x==1:
@@ -27,7 +27,7 @@ def f2():
         print('Цена: ' + str(a.get('price')))
         print('Вес: ' + str(a.get('weight')))
         if str(a.get('name')):
-            print('В наличии')
+            print('Есть в наличии')
         else:
             print('Нет в наличии!''\n')
         print('')
